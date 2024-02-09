@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element = {<Login/> }></Route>
+          <Route path='/LoginFront' element = {<Login/> }></Route>
           <Route path='/insertionModel' element={ <AppAffichage /> }></Route>     {/* Insertion model */}
           <Route path='/InsertionCarburant' element={ <Liste /> }></Route>
           <Route path='/InsertionBoiteDeVitesse' element={ <InsertionBoiteDeVitesse /> }></Route>
@@ -43,7 +43,7 @@ function App() {
           <Route path='/ListeUtilisateurMessage' element = {<Utilisateur/> }></Route>
           <Route path='/Message' element = {<MessagePar/> }></Route>
           <Route path='/AffichageAnnonce' element = {<AffichageAnnonce/> }></Route>
-          <Route path='/LoginFront' element = {<LoginFront/> }></Route>
+          <Route path='/' element = {<LoginFront/> }></Route>
           <Route path='/ListeHistoriqueAnnonceUtilisateur' element = {<ListeHistoriqueAnnonceUtilisateur/> }></Route>
         </Routes>
       </BrowserRouter>
